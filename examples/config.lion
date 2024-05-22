@@ -1,0 +1,17 @@
+@schema "./config.lios"
+
+@doc {
+    name: "config",
+    version: 1,
+    description: "Configuration file for the application",
+    dependencies: [
+        "lios"
+        "test"
+    ],
+    env: {
+        number: 11,
+        host: "localhost",
+        port: 8080,
+        boolean: true,
+    },
+}

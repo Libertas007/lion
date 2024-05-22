@@ -1,0 +1,14 @@
+@definition {
+    name: String,
+    description: String,
+    version: Integer,
+    dependencies: Array<String>,
+    env: Env,
+}
+
+@subschema Env {
+    port: Integer,
+    host: String,
+    number: Number,
+    boolean: Boolean,
+}
